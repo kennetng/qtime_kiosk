@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_offline/flutter_offline.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
-const PRINTER = 'http://qtimeapp.com';
+var PRINTER = 'http://qtime-pilot.herokuapp.com/main-page';
 
 class Printer extends StatefulWidget {
   @override

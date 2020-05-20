@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_offline/flutter_offline.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
-const QTIMEAPP = 'http://qtimeapp.com';
+var QTIMEAPP = 'https://pilot.qtimecloud.com/main-page';
 
 class QtimeApp extends StatefulWidget {
   @override
