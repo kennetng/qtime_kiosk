@@ -42,6 +42,7 @@ class _Printer extends State<Printer> {
                         url: PRINTER,
                         withJavascript: true,
                         withLocalStorage: true,
+                        ignoreSSLErrors: true
                       )
                     : Container()
               ],
