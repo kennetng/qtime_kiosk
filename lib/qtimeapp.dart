@@ -42,6 +42,7 @@ class _QtimeApp extends State<QtimeApp> {
                         url: QTIMEAPP,
                         withJavascript: true,
                         withLocalStorage: true,
+                        ignoreSSLErrors: true
                       )
                     : Container()
               ],
